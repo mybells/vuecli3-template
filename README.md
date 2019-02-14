@@ -1,4 +1,4 @@
-# zhuishu
+# vuecli3Template
 
 ## Project setup
 ```
@@ -15,14 +15,9 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### 导出webpack配置到output.js
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+vue inspect > output.js
 ```
 
 ### Customize configuration
