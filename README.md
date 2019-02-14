@@ -1,5 +1,9 @@
 # vuecli3Template
 
+基于vue-cli3.1.3的项目模板<br/>
+
+技术栈主要使用vue-cli3.0+vue+elementUI+vuex+vue-router+axios<br/>
+并引入了jquery,normalize.css,sass-loader
 ## Project setup
 ```
 npm install
@@ -19,6 +23,3 @@ npm run build
 ```
 vue inspect > output.js
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
