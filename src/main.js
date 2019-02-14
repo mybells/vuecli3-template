@@ -7,7 +7,6 @@ import './plugins/element.js'
 import router from '@/router/router'
 import store from '@/store'
 import App from './App.vue'
-console.log($)
 Vue.config.productionTip = false
 new Vue({
   router,
