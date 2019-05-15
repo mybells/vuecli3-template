@@ -1,15 +1,11 @@
 const app = {
-  state: {
-
-  },
-  mutations: {
-
-  },
+  state: {},
+  mutations: {},
   actions: {
     // ToggleSideBar: ({ commit }) => {
     //   commit('TOGGLE_SIDEBAR')
     // }
   }
-}
+};
 
-export default app
+export default app;
