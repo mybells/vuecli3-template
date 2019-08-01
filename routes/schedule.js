@@ -24,3 +24,4 @@ router.post('/updateData/:id', (req, res) => {
 router.get('/deleteData/:id', (req, res) => {
   Schedule.findByIdAndRemove(req.params.id).then(data => res.json(data)).catch(err => res.status(404).json(err))
 })
+module.exports = router;
