@@ -2,19 +2,14 @@
 
 基于 vue-cli3.9.2 的项目模板<br/>
 
+包含两个分支：
+master: 只有前台模板（主线版本）
+nodeclient: 包含前台和后台模板
+
 技术栈主要使用 vue-cli3.0+vue+elementUI+vuex+vue-router+axios<br/>
 并引入了 jquery,normalize.css,sass-loader,eslint,lodash
 
-<!-- TOC -->
-
-- [vuecli3Template](#vuecli3template)
-  - [目录结构](#目录结构)
-  - [安装 npm 包](#安装-npm-包)
-  - [运行项目](#运行项目)
-  - [打包项目](#打包项目)
-  - [导出 webpack 配置到 output.js](#导出-webpack-配置到-outputjs)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [vuecli3Template](#vuecli3template)auto  - [目录结构](#目录结构)auto  - [安装 npm 包](#安装-npm-包)auto  - [运行项目](#运行项目)auto  - [打包项目](#打包项目)auto  - [导出 webpack 配置到 output.js](#导出-webpack-配置到-outputjs)autoauto<!-- /TOC -->
 ## 目录结构
 
     |-- vuecli3Template
