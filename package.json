@@ -1,35 +1,23 @@
 {
-  "name": "vuecli3template",
+  "name": "vuecli3template-server",
   "version": "0.1.0",
+  "description": "node server",
   "private": true,
+  "main": "server.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "client-install": "cd client && npm install",
+    "client": "npm run serve --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
-    "element-ui": "2.11.1",
-    "jquery": "3.4.1",
-    "lodash": "^4.17.15",
-    "mddir": "^1.1.1",
-    "normalize.css": "^8.0.1",
-    "vue": "2.6.10",
-    "vue-router": "3.0.7",
-    "vuex": "3.1.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.7"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.2",
-    "@vue/cli-plugin-eslint": "^3.9.2",
-    "@vue/cli-service": "^3.9.3",
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "axios": "^0.18.1",
-    "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.2.3",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-axios": "0.0.4",
-    "vue-cli-plugin-element": "^1.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "nodemon": "^1.19.1"
   }
 }
